@@ -9,7 +9,7 @@ public void select(String name,String password){
 	DBConnector db=new DBConnector();
 	Connection con=db.getConnection();
 
-	String sql="selest*from test_table where user_name=? and password=?";
+	String sql="select*from test_table where user_name=? and password=?";
 	try{
 		PreparedStatement ps=con.prepareStatement(sql);
 		ps.setString(1,name);
@@ -50,13 +50,13 @@ public void selectByName(String name){
 	DBConnector db=new DBConnector();
 	Connection con=db.getConnection();
 
-	String sql="sekect*from test_table where user_name=?";
+	String sql="select * from test_table where user_name=?";
 	try{
 		PreparedStatement ps=con.prepareStatement(sql);
 		ps.setString(1, name);
 		ResultSet rs=ps.executeQuery();
 		while(rs.next()){
-			System.out.println(rs.getString("uer_name"));
+			System.out.println(rs.getString("user_name"));
 			System.out.println(rs.getString("password"));
 		}
 	}catch(SQLException e){
@@ -67,14 +67,14 @@ public void selectByPassword(String password){
 	DBConnector db=new DBConnector();
 	Connection con=db.getConnection();
 
-	String sql="slect*from test_table where password=?";
+	String sql="select * from test_table where password=?";
 	try{
 		PreparedStatement ps=con.prepareStatement(sql);
 		ps.setString(1, password);
 		ResultSet rs=ps.executeQuery();
 		while(rs.next()){
-			System.out.println("user_name");
-			System.out.println("password");
+			System.out.println(rs.getString("user_name"));
+			System.out.println(rs.getString("password"));
 		}
 	}catch(SQLException e){
 		e.printStackTrace();
@@ -89,7 +89,7 @@ public void updataUserNameByUserName(String oldName,String newName){
 	DBConnector db=new DBConnector();
 	Connection con=db.getConnection();
 
-	String sql="update taes_table set user_name=? where user_name=?";
+	String sql="update test_table set user_name=? where user_name=?";
 	try{
 		PreparedStatement ps=con.prepareStatement(sql);
 		ps.setString(1, newName);
