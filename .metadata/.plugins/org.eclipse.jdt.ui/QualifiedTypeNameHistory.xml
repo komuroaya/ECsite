@@ -4,4 +4,5 @@
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="DBConnector"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="com.internousdev.login.dto.LoginDTO"/>
 </qualifiedTypeNameHistroy>
