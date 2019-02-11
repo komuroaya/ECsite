@@ -6,7 +6,11 @@ import com.internousdev.login.dao.LoginDAO;
 import com.internousdev.login.dto.LoginDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
+<<<<<<< HEAD
 public class LoginAction extends ActionSupport{
+=======
+public class LoginAction extends ActionSupport {
+>>>>>>> 8d1f728a61a7d9c9864df334d1ee89c4cebaf51e
 	private String name;
 	private String password;
 

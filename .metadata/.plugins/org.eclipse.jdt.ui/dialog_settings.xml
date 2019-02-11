@@ -36,6 +36,9 @@
 	</section>
 	<section name="RenameInformationPopup">
 	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item value="7" key="index"/>
+	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
 	</section>
@@ -45,6 +48,7 @@
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="BuildPathsPropertyPage">
+<<<<<<< HEAD
 		<item value="3" key="pageIndex"/>
 	</section>
 	<section name="JavadocWizardDialog">
@@ -53,6 +57,9 @@
 		<item value="502" key="DIALOG_HEIGHT"/>
 		<item value="129" key="DIALOG_X_ORIGIN"/>
 		<item value="28" key="DIALOG_Y_ORIGIN"/>
+=======
+		<item value="2" key="pageIndex"/>
+>>>>>>> 8d1f728a61a7d9c9864df334d1ee89c4cebaf51e
 	</section>
 	<section name="completion_proposal_size">
 	</section>
