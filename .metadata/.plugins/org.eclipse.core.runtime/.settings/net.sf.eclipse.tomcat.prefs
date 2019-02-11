@@ -1,6 +1,9 @@
 computeSourcePath=true
 contextsDir=C\:\\Users\\aya\\Desktop\\pleiades\\tomcat\\8\\conf\\Catalina\\localhost
 eclipse.preferences.version=1
+managerUrl=http\://localhost\:8080/manager
+projectsInSourcePath=Capsule;HelloJPS;HelloServlet;Iphone;Iphone2;Person;Person2;TestDB;WebProj;collections_framework;login;
 tomcatConfigFile=C\:\\Users\\aya\\Desktop\\pleiades\\tomcat\\8\\conf\\server.xml
 tomcatDir=C\:\\Users\\aya\\Desktop\\pleiades\\tomcat\\8
+tomcatJRE=1549857176820
 tomcatVersion=tomcatV8
