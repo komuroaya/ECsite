@@ -1,12 +1,12 @@
 package com.internousdev.login.action;
 
-
 import java.sql.SQLException;
+
 import com.internousdev.login.dao.LoginDAO;
 import com.internousdev.login.dto.LoginDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
-public class LoginAction {
+public class LoginAction extends ActionSupport{
 	private String name;
 	private String password;
 
@@ -18,7 +18,7 @@ public class LoginAction {
 		dto = dao.select(name, password);
 		if(name.equals(dto.getName())){
 			if(password.equals(dto.getPassword())){
-				ret = SUCCESS
+				ret = SUCCESS;
 			}
 		}
 	return ret;
