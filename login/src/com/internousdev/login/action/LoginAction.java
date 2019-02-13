@@ -4,6 +4,7 @@ import java.sql.SQLException;
 
 import com.internousdev.login.dao.LoginDAO;
 import com.internousdev.login.dto.LoginDTO;
+import com.opensymphony.xwork2.ActionSupport;
 
 public class LoginAction extends ActionSupport {
 	private String name;
@@ -31,7 +32,7 @@ public class LoginAction extends ActionSupport {
 	public String getPassword(){
 		return password;
 	}
-	public void setPasswod(String password){
+	public void setPassword(String password){
 		this.password = password;
 	}
 }
