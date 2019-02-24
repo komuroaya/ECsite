@@ -28,3 +28,59 @@
 2019-02-11 18:05:26,309 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
 2019-02-11 19:59:26,924 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
 2019-02-13 19:12:52,314 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2019-02-17 10:20:46,628 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2019-02-17 10:40:19,326 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2019-02-17 10:50:04,806 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2019-02-17 10:50:46,063 [Worker-6] ERROR o.e.m.i.l.MavenConsoleLineTracker - file:/C:/Users/aya/Desktop/workspace/workspase-komuro/test/.metadata/.plugins/org.eclipse.debug.core/.launches/ローカル・ホスト%20の%20Tomcat8%20(Java8).launch に起動構成 ローカル・ホスト の Tomcat8 (Java8) が存在しません。
+org.eclipse.debug.core.DebugException: file:/C:/Users/aya/Desktop/workspace/workspase-komuro/test/.metadata/.plugins/org.eclipse.debug.core/.launches/ローカル・ホスト%20の%20Tomcat8%20(Java8).launch に起動構成 ローカル・ホスト の Tomcat8 (Java8) が存在しません。
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:930) ~[org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1400) ~[org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:470) ~[org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:640) ~[org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142) [org.eclipse.m2e.launching_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85) [org.eclipse.m2e.launching_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:130) [org.eclipse.debug.ui_3.11.101.v20160203-1230.jar:na]
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:122) [org.eclipse.debug.ui_3.11.101.v20160203-1230.jar:na]
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137) [org.eclipse.ui.console_3.6.100.v20150822-1912.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+2019-02-17 10:50:46,066 [Worker-6] ERROR o.e.m.i.l.MavenConsoleLineTracker - file:/C:/Users/aya/Desktop/workspace/workspase-komuro/test/.metadata/.plugins/org.eclipse.debug.core/.launches/ローカル・ホスト%20の%20Tomcat8%20(Java8).launch に起動構成 ローカル・ホスト の Tomcat8 (Java8) が存在しません。
+org.eclipse.debug.core.DebugException: file:/C:/Users/aya/Desktop/workspace/workspase-komuro/test/.metadata/.plugins/org.eclipse.debug.core/.launches/ローカル・ホスト%20の%20Tomcat8%20(Java8).launch に起動構成 ローカル・ホスト の Tomcat8 (Java8) が存在しません。
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:930) ~[org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1400) ~[org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:470) ~[org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:640) ~[org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142) [org.eclipse.m2e.launching_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85) [org.eclipse.m2e.launching_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:130) [org.eclipse.debug.ui_3.11.101.v20160203-1230.jar:na]
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:122) [org.eclipse.debug.ui_3.11.101.v20160203-1230.jar:na]
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137) [org.eclipse.ui.console_3.6.100.v20150822-1912.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+2019-02-17 10:50:46,068 [Worker-6] ERROR o.e.m.i.l.MavenConsoleLineTracker - file:/C:/Users/aya/Desktop/workspace/workspase-komuro/test/.metadata/.plugins/org.eclipse.debug.core/.launches/ローカル・ホスト%20の%20Tomcat8%20(Java8).launch に起動構成 ローカル・ホスト の Tomcat8 (Java8) が存在しません。
+org.eclipse.debug.core.DebugException: file:/C:/Users/aya/Desktop/workspace/workspase-komuro/test/.metadata/.plugins/org.eclipse.debug.core/.launches/ローカル・ホスト%20の%20Tomcat8%20(Java8).launch に起動構成 ローカル・ホスト の Tomcat8 (Java8) が存在しません。
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:930) ~[org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1400) ~[org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:470) ~[org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:640) ~[org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142) [org.eclipse.m2e.launching_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85) [org.eclipse.m2e.launching_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:130) [org.eclipse.debug.ui_3.11.101.v20160203-1230.jar:na]
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:122) [org.eclipse.debug.ui_3.11.101.v20160203-1230.jar:na]
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137) [org.eclipse.ui.console_3.6.100.v20150822-1912.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+2019-02-17 10:50:46,069 [Worker-4] ERROR o.e.m.i.l.MavenConsoleLineTracker - file:/C:/Users/aya/Desktop/workspace/workspase-komuro/test/.metadata/.plugins/org.eclipse.debug.core/.launches/ローカル・ホスト%20の%20Tomcat8%20(Java8).launch に起動構成 ローカル・ホスト の Tomcat8 (Java8) が存在しません。
+org.eclipse.debug.core.DebugException: file:/C:/Users/aya/Desktop/workspace/workspase-komuro/test/.metadata/.plugins/org.eclipse.debug.core/.launches/ローカル・ホスト%20の%20Tomcat8%20(Java8).launch に起動構成 ローカル・ホスト の Tomcat8 (Java8) が存在しません。
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:930) ~[org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1400) ~[org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:470) ~[org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:640) ~[org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142) [org.eclipse.m2e.launching_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85) [org.eclipse.m2e.launching_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:130) [org.eclipse.debug.ui_3.11.101.v20160203-1230.jar:na]
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.disconnect(ConsoleLineNotifier.java:75) [org.eclipse.debug.ui_3.11.101.v20160203-1230.jar:na]
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$CompiledPatternMatchListener.dispose(ConsolePatternMatcher.java:198) [org.eclipse.ui.console_3.6.100.v20150822-1912.jar:na]
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.disconnect(ConsolePatternMatcher.java:260) [org.eclipse.ui.console_3.6.100.v20150822-1912.jar:na]
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:164) [org.eclipse.ui.console_3.6.100.v20150822-1912.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+2019-02-20 11:43:33,246 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2019-02-20 14:38:41,402 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2019-02-24 11:05:47,053 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
