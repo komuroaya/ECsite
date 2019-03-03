@@ -7,9 +7,9 @@ use ecsite;
 
 drop table if exists login_user_transaction;
 
-create table login_user_trasaction(
+create table login_user_transaction(
 id int not null primary key auto_increment,
-login_id varchar(16) unque,
+login_id varchar(16) unique,
 login_pass varchar(16),
 user_name varchar(50),
 insert_date datetime,
@@ -18,7 +18,7 @@ updata_date datetime
 
 drop table if exists item_info_transaction;
 
-create table item_info_trasaction(
+create table item_info_transaction(
 id int null primary key auto_increment,
 item_name varchar(30),
 item_price int,
