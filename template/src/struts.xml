@@ -4,7 +4,7 @@
 <!-- Strutsの詳細設定 -->
 
 <struts>
-	<constant name="struts.devMode" value="ture" />
+	<constant name="struts.devMode" value="true" />
 <!-- 対象のpackageを設定 -->
 	<package name="com.internousdev.template.action" extends="struts-default">
 	<!-- HomeAction -->
