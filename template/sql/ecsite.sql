@@ -1,9 +1,9 @@
 set names utf8;
 set foreign_key_checks = 0;
-drop database if exists ecsite;
+drop database if exists ecsite1;
 
-create database if not exists ecsite;
-use ecsite;
+create database if not exists ecsite1;
+use ecsite1;
 
 drop table if exists login_user_transaction;
 
@@ -27,7 +27,7 @@ insert_date datetime,
 updata_date datetime
 );
 
-drop table if exists user_buy_item_trasaction;
+drop table if exists user_buy_item_transaction;
 
 create table user_buy_item_transaction(
 id int not null primary key auto_increment,

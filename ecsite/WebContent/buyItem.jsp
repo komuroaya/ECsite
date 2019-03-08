@@ -65,7 +65,7 @@
 			<p>BuyItem</p>
 		</div>
 		<div>
-			<s:form sction="BuyItemAction">
+			<s:form action="BuyItemAction">
 			<table>
 				<tr>
 					<td>
