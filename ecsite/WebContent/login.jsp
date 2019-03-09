@@ -19,13 +19,14 @@
 		padding: 0;
 		line-height: 1.6;
 		letter-spacing: 1px;
+		font-family: Verdana,Helvetica,sans-serif;
 		font-size: 12px;
 		color: #333;
 		background: #fff;
 	}
 	table{
 		text-align: center;
-		margin: 0;
+		margin: 0 auto;
 	}
 	/*=======ID LAYOUT=======*/
 	#top{
@@ -39,19 +40,19 @@
 		background-color: black;
 	}
 	#main{
-		 width: 100%;
-		 height: 500px;
-		 text-align: center;
-		}
+		width: 100%;
+		height: 500px;
+		text-align: center;
+	}
 	#footer{
 		width: 100%;
 		height: 80px;
 		background-color: black;
 		clear: both;
 	}
-	#text-link{
-		display: inline-block;
-		text-align: right;
+ 	#text-link{
+ 		display: inline-block;
+ 		text-align: right;
 	}
 </style>
 </head>
