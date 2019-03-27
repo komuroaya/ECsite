@@ -38,7 +38,7 @@ table {
 #header {
 	width: 100%;
 	height: 80px;
-	backgroung-color: black;
+	background-color: black;
 }
 
 #main {
